@@ -1,31 +1,38 @@
-import 'dart:ui';
+import 'package:flutter/material.dart';
 
 class AppColors {
-  static const Color primary = Color(0xFF4A2C2A);
-  static const Color primaryLight = Color(0xFF6F4E37);
-  static const Color secondary = Color(0xFF8B7355);
-  static const Color appBarBackground = Color(0xFFF5EDE6);
+  // Brand Colors
+  static const Color primary = Color(0xFF3B2F2F); // Deep Espresso (Premium)
+  static const Color primaryLight = Color(0xFF7A5F50); // Smooth Mocha Latte
+  static const Color secondary = Color(0xFFC7A27A); // Premium Caramel
 
-  static const Color background = Color(0xFFFDF9F6);
-  static const Color backgroundDark = Color(0xFF1C1413);
-  static const Color surface = Color(0xFFF5EDE6);
-  static const Color card = Color(0xFFFFFFFF);
+  // Backgrounds
+  static const Color background = Color(0xFFFAF7F4); // Soft Cream
+  static const Color backgroundDark = Color(0xFF1A1412); // Deep Roast Dark
+  static const Color surface = Color(0xFFF3EEE9); // Light Warm Surface
+  static const Color card = Color(0xFFFFFFFF); // Clean White Card
 
-  static const Color text = Color(0xFF2D1F1A);
-  static const Color textSecondary = Color(0xFF5C4033);
-  static const Color textTertiary = Color(0xFF9C8578);
-  static const Color textOnDark = Color(0xFFF5EDE6);
+  // Text Colors
+  static const Color text = Color(0xFF2C1E1A); // Rich Coffee Text
+  static const Color textSecondary = Color(0xFF6B5248); // Warm Soft Brown
+  static const Color textTertiary = Color(0xFFAF9C91); // Light Coffee Gray
+  static const Color textOnDark = Color(0xFFF3EEE9); // Smooth Light Beige
 
-  static const Color border = Color(0xFFE5DCD3);
-  static const Color divider = Color(0xFFEDE5DC);
+  // Borders / Dividers
+  static const Color border = Color(0xFFE7DDD4); // Light Warm Border
+  static const Color divider = Color(0xFFF0E8E2); // Smooth Divider
 
-  static const Color success = Color(0xFF5D7A5D);
-  static const Color error = Color(0xFFA65D57);
+  // Status Colors
+  static const Color success = Color(0xFF5C8A6E); // Muted Green
+  static const Color error = Color(0xFFB85F57); // Warm Rust Red
 
-  static const Color espresso = Color(0xFF2D1F1A);
-  static const Color americano = Color(0xFF3C2A21);
-  static const Color mocha = Color(0xFF6F4E37);
-  static const Color latte = Color(0xFFD4C4B0);
-  static const Color cappuccino = Color(0xFFA67B5B);
-  static const Color macchiato = Color(0xFFC4A77D);
+  // Coffee Shades (Optimized & Reduced)
+  static const Color espresso = Color(0xFF3B2F2F); // Deep Espresso
+  static const Color americano = Color(0xFF4A3A33); // Smoky Brown
+  static const Color mocha = Color(0xFF7A5F50); // Mocha
+  static const Color latte = Color(0xFFE6D8C9); // Light Latte Cream
+  static const Color cappuccino = Color(0xFFC9A88A); // Soft Cappuccino
+  static const Color macchiato = Color(0xFFD8BFA3); // Pale Macchiato
+
+  static Color get transparent => Colors.transparent;
 }

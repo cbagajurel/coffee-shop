@@ -1,10 +1,11 @@
 import 'package:coffee_shop/app/view/screens/splash/splash_screen.dart';
 import 'package:coffee_shop/utils/app_constants.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
-  runApp(const CoffeeShopApp());
+  runApp(ProviderScope(child: const CoffeeShopApp()));
 }
 
 class CoffeeShopApp extends StatelessWidget {

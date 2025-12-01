@@ -39,7 +39,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
         onTap: _onItemTapped,
         selectedItemColor: AppColors.primary,
         unselectedItemColor: AppColors.secondary,
-        backgroundColor: AppColors.appBarBackground,
+        backgroundColor: AppColors.card,
         elevation: 0.1,
       ),
     );
