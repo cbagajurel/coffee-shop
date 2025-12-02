@@ -4,3 +4,9 @@ gunicorn
 pydantic
 sqlalchemy
 timescaledb
+
+# Development tools
+flake8
+black
+mypy
+pylint
